@@ -26,7 +26,7 @@ export const Navbar = async () => {
             <div className='flex flex-1'></div>
             {
                 navItems.map(({ path, text }) => (
-                    <Link key={path} className='mr-2' href={path} > {text}</Link>
+                    <Link key={path} className='mr-2' href={path}> {text}</Link>
                 ))
             }
         </nav >
