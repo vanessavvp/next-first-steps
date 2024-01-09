@@ -9,8 +9,6 @@ export const metadata: Metadata = {
 
 export default function About() {
     return (
-        <>
-            <span className="text-7xl">About Page</span>
-        </>
+        <span className="text-7xl">About Page</span>
     )
 }
